@@ -1,16 +1,20 @@
-First. Setup Anaconda environment.
+1. Setup Anaconda environment.
+- https://www.anaconda.com/products/individual
 
-Second. Setup Nox or Android emulator 
+2. Setup Nox or Android emulator 
+- https://www.bignox.com/
 
-Third. Install frida-tools
+3. Install frida-tools
+- pip install frida-tools
 
-Fourth. Download frida-server and move frida-server file
+4. Download frida-server and move frida-server file
+- https://github.com/frida/frida/releases
 - adb push "frida-server*" /data/local/tmp
 
-Fifth. exec frida-server
+5. exec frida-server
 - chmod 777 frida-server*
 - ./frida-server* &
 - ps -ef | grep frida
 
-Sixth. connect frida client & server
+6. connect frida client & server
 - frida-ps -U
