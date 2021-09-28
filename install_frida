@@ -9,6 +9,10 @@
 3. Install frida-tools
 - pip install frida-tools
 
+4. Check Android version
+- adb shell 
+- $ getprop ro.product.cpu.abi
+
 4. Download frida-server and move frida-server file
 - https://github.com/frida/frida/releases
 - adb push "frida-server*" /data/local/tmp
