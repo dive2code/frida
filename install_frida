@@ -1,5 +1,7 @@
 1. Setup Anaconda environment.
 - https://www.anaconda.com/products/individual
+- conda -n py3.9.7 python=3.9.7 -y
+- activate py3.9.7
 
 2. Setup Nox or Android emulator 
 - https://www.bignox.com/
